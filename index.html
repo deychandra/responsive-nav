@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="all.css">
+  </head>
+  <body>
+
+
+    <header class="header-area">
+      <div class="header-container">
+          <div class="site-logo">
+              <a href="#">Coder<span>Rishad</span></a>
+          </div>
+          <div class="mobile-nav">
+              <i class="fas fa-bars"></i>
+          </div>
+          <div class="site-nav-menu">
+              <ul class="primary-menu">
+                  <li><a href="#" class="active">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Works</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+      </div>
+  </header>
+
+
+
+
+	<script type="text/javascript" src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+    $(".mobile-nav i").click(function(){
+        $(".site-nav-menu").toggleClass("mobile-menu");
+    });
+ });
+  </script>
+  </body>
+</html>
